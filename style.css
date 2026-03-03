@@ -14,7 +14,7 @@
 }
 
 .hero {
-  background:'images/roosley_hero_image-01-01.jpg'; center/cover no-repeat;
+  background:'roosley_hero_image-01-01.jpg'; center/cover no-repeat;
   min-height: 60vh; /* adjust height */
   position: relative;
 }
@@ -267,4 +267,5 @@ input:focus, textarea:focus, select:focus {
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
+
 }
