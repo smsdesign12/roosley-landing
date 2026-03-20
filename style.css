@@ -278,3 +278,14 @@ input:focus, textarea:focus, select:focus {
 
 }
 
+/* MOBILE LOGO SIZE */
+@media (max-width: 600px) {
+  .brand {
+    font-size: 0.85rem; /* reduce text/logo size slightly */
+  }
+
+  .brand img {
+    height: 36px; /* or any value you want */
+    width: auto;
+  }
+}
