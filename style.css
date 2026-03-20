@@ -76,20 +76,17 @@ h2 { font-size: clamp(1.5rem, 4vw, 2.5rem); max-width: 20ch; }
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  min-height: 90vh;
-  min-height: 90svh;
-   display: flex;
-  align-items: flex-start; /* move content to top */
-  justify-content: center; /* horizontal centering */
   min-height: 100vh;
-  padding-top: 1rem; /* adjust spacing from top */
+  min-height: 100svh;
+  display: flex;
+    align-items: centre;
 }
 
-.hero-grid {
-  display: grid;
-  gap: 2rem;
-  align-items: start; /* ensures text is at top of grid cell */
-}
+ .hero-grid {
+    align-items: flex-start; /* move text to top */
+    padding-top: 0rem; /* adjust as needed */
+    gap: 1rem;
+  }
 
 @media (max-width: 610px) {
   .hero {
