@@ -94,8 +94,8 @@ h2 { font-size: clamp(1.5rem, 4vw, 2.5rem); max-width: 20ch; }
   }
  .hero-grid {
     align-items: flex-start; /* move text to top */
-    padding-top: 0.1rem; /* adjust as needed */
-    gap: 0.1rem;
+    padding-top: 1rem; /* adjust as needed */
+    gap: 1rem;
   }
 
  /* Headings and lead text tighter */
@@ -147,7 +147,7 @@ h2 { font-size: clamp(1.5rem, 4vw, 2.5rem); max-width: 20ch; }
   background: #0088c2;
 }
 
-.hero-grid { display: grid; gap: 2rem; align-items: center; }
+.hero-grid { display: grid; gap: 1rem; align-items: center; }
 .hero-actions { display: flex; gap: .8rem; flex-wrap: wrap; margin-top: 1.5rem; }
 
 .btn {
