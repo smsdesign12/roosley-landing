@@ -69,27 +69,25 @@ h2 { font-size: clamp(1.5rem, 4vw, 2.5rem); max-width: 20ch; }
 .primary-nav a:hover { color: var(--text); background: rgba(4,46,76,0.82); }
 .menu-toggle { display: none; }
 
-@media (max-width: 900px) {
 
-  .hero {
-   background-image: url('roosley_hero_imagetest02-01-mobile.jpg');
-    align-items: flex-start;
-  }
 
-  .hero-grid {
-    padding-top: 4.5rem; /* adjust 4–6rem to taste */
-  }
-
-  .hero h1 {
-    line-height: 1.1;   /* tighter headline */
-    margin-bottom: .6rem;
-  }
-
-  .hero .lead {
-    line-height: 1.35;  /* slightly tighter body */
-  }
-
+.hero {
+  background-image: url('roosley_hero_imagetest02-01.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    background-image: url('roosley_hero_imagetest02-01-mobile.jpg');
+  }
+}
+
 
 #about {
   background: #0088c2;
