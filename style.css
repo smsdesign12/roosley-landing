@@ -96,7 +96,7 @@ h2 { font-size: clamp(1.5rem, 4vw, 2.5rem); max-width: 20ch; }
     min-height: 85vh;  /* or 85vh if you want shorter on mobile */
       display: flex;
     align-items: flex-start; /* start at top */
-    padding-top: 1rem; /* top spacing */
+    padding-top: 15rem; /* top spacing */
   }
 
 
