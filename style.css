@@ -285,7 +285,7 @@ input:focus, textarea:focus, select:focus {
   }
 
   .brand img {
-    height: 30px; /* or any value you want */
+    height: 20px; /* or any value you want */
     width: auto;
   }
 }
