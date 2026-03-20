@@ -13,13 +13,6 @@
   --container: min(1120px, 92vw);
 }
 
-.hero {
-  background:'roosley_hero_imagetest02-01.jpg'; center/cover no-repeat;
-  min-height: 60vh; /* adjust height */
-  position: relative;
-}
-
-
 #about {
   background: #0088c2;
 }
@@ -77,10 +70,11 @@ h2 { font-size: clamp(1.5rem, 4vw, 2.5rem); max-width: 20ch; }
 .menu-toggle { display: none; }
 
 .hero {
-    background-image: url('roosley_hero_imagetest02-01.jpg');
+  background-image: url('roosley_hero_imagetest02-01.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  min-height: 100svh;
 }
 
 #about {
