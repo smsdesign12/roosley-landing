@@ -82,6 +82,12 @@ h2 { font-size: clamp(1.5rem, 4vw, 2.5rem); max-width: 20ch; }
   align-items: center;
 }
 
+ .hero-grid {
+    align-items: flex-start; /* move text to top */
+    padding-top: 10rem; /* adjust as needed */
+    gap: 1rem;
+  }
+
 @media (max-width: 610px) {
   .hero {
     background-image: url('roosley_hero_imagetest02-01-mobile.jpg');
@@ -92,11 +98,7 @@ h2 { font-size: clamp(1.5rem, 4vw, 2.5rem); max-width: 20ch; }
     align-items: flex-start; /* start at top */
     padding-top: 1rem; /* top spacing */
   }
- .hero-grid {
-    align-items: flex-start; /* move text to top */
-    padding-top: 10rem; /* adjust as needed */
-    gap: 1rem;
-  }
+
 
  /* Headings and lead text tighter */
   .hero h1 {
