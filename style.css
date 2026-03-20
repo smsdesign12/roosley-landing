@@ -82,7 +82,7 @@ h2 { font-size: clamp(1.5rem, 4vw, 2.5rem); max-width: 20ch; }
   align-items: flex-start; /* move content to top */
   justify-content: center; /* horizontal centering */
   min-height: 100vh;
-  padding-top: 10rem; /* adjust spacing from top */
+  padding-top: 1rem; /* adjust spacing from top */
 }
 
 .hero-grid {
@@ -99,7 +99,7 @@ h2 { font-size: clamp(1.5rem, 4vw, 2.5rem); max-width: 20ch; }
     min-height: 85vh;  /* or 85vh if you want shorter on mobile */
       display: flex;
     align-items: flex-start; /* start at top */
-    padding-top: 10rem; /* top spacing */
+    padding-top: 1rem; /* top spacing */
   }
 
 
