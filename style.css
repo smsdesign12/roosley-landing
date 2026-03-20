@@ -82,12 +82,12 @@ h2 { font-size: clamp(1.5rem, 4vw, 2.5rem); max-width: 20ch; }
   align-items: center;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 875px) {
   .hero {
     background-image: url('roosley_hero_imagetest02-01-mobile.jpg');
     background-size: cover;
     background-position: center center;
-    min-height: 100vh;  /* or 85vh if you want shorter on mobile */
+    min-height: 85vh;  /* or 85vh if you want shorter on mobile */
   }
 
 #about {
