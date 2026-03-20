@@ -72,15 +72,9 @@ h2 { font-size: clamp(1.5rem, 4vw, 2.5rem); max-width: 20ch; }
 .hero {
   background-image: url('roosley_hero_imagetest02-01.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: 60% center;
   background-repeat: no-repeat;
   min-height: 100svh;
-}
-
-@media (max-width: 860px) {
-  .hero {
-    background-position: 60% center;
-  }
 }
 
 #about {
